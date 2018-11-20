@@ -33,8 +33,7 @@ iterateOverTuple()
 
 
 def iterateOverUnpacketTuple():
-    s = [0, 1, 4, 6, 13]
-    s.coun
+    s = [0, 1, 4, 6, 13]    
     for i, v in enumerate(s):
         print("{}, {}".format(i, v))
 
