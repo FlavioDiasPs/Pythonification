@@ -7,14 +7,15 @@ Usage:
 def getTupleMinMax(items):
     return (min(items), max(items))
 
-item = [43, 1, 23, 65, 87, 23]
+listitem = [43, 1, 23, 65, 87, 23]
+tupleitem = (2, 4)
 
-lower, upper = getTupleMinMax(item)
+lower, upper = getTupleMinMax(listitem)
 print(lower)
 print(upper)
 
-item = getTupleMinMax(item)
-print(item)
+listitem = getTupleMinMax(listitem)
+print(listitem)
 
 print(tuple("Flavio"))
 print(type((1,)))
