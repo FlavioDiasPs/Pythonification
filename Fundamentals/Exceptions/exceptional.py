@@ -1,5 +1,6 @@
-"""A module for demonstrating exceptions."""
+import sys
 
+"""A module for demonstrating exceptions."""
 def convert(s):
     """Convert to integer"""
     try:        
