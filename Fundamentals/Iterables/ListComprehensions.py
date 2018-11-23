@@ -28,12 +28,7 @@ capital_to_country = {capital: country for country, capital in country_to_capita
 pp(capital_to_country)
 
 
-#FILTERING PREDICATES
-def is_even(x):
-    if(x % 2) == 0: 
-        return True
-    return False
-
+from Fundamentals.functions import is_even
 [x for x in range(101) if is_even(x)]
 
 # DOING OPERATIONS
