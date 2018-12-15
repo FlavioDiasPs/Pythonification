@@ -27,7 +27,7 @@ def iterateOverTuple():
 
 iterateOverTuple()
 
-#this is the better way to iterate over a list
+#this is the best way to iterate over a list
 #it is iterating over a primitive object made for it
 #it gives you i->index and v-> value
 
